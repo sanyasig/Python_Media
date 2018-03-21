@@ -5,7 +5,7 @@ config = 0;
 
 def read_config():
     config = configparser.ConfigParser()
-    config.read(os.path.expanduser('~') + '/work/home_settings.ini')
+    config.read(os.path.expanduser('~') + '/settings.ini')
     print(config.sections())
     return config
 
